@@ -1,0 +1,16 @@
+ <view class="perfect-title">图片上传公用组件</view>  
+  <view class="pop-box">
+    <view class="upload-title">营业执照原件(1张)</view>
+      <view style="margin:30rpx;">
+        <pop id="pop" bind:chooseImg="chooseImg" bind:deleteImg="deleteImg" bind:previewImg="previewImg" count="{{count}}"></pop>
+      </view>
+  </view>  
+  <view class="pop-box">
+    <view class="upload-title">身份证原件正反面(2张)</view>
+      <view style="margin:30rpx;">
+        <popnum id="popnum" bind:chooseImg="chooseImgnum" bind:deleteImg="deleteImgnum" bind:previewImg="previewImg" count="{{countnum}}"></popnum>
+      </view>
+  </view> 
+  <view class="btn-area" id="buttonContainer2">
+    <button type="primary" bindtap="submitBtn">确认</button>
+  </view> 

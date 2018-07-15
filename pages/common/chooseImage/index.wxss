@@ -1,0 +1,49 @@
+/* pages/files/company/index/index.wxss */
+.clearfix::after {
+  content: "";
+  /* 内容为空 */
+  visibility: hidden;
+  /* 隐藏对象 */
+  height: 0;
+  display: block;
+  clear: both;
+}
+.img-chooseImage{
+  width:200rpx;
+  height: 200rpx;
+  float: left;
+  margin-right:20rpx;
+  border-radius: 8rpx;
+  position: relative;
+}
+.delete-btn{
+  position: absolute;
+  right:0;
+  top:0;
+  width: 40rpx;
+  height: 40rpx;
+}
+.upload-img-btn{
+  width:200rpx;
+  height: 200rpx;
+  border:1px dashed #cccccc;
+  border-radius: 8rpx;
+  position: relative;
+  float: left;
+}
+.add-img{
+  width:80rpx;
+  height: 80rpx;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-top:-40rpx;
+  margin-left:-40rpx;
+}
+.list-img{
+  border:1px solid #ccc;
+}
+image{
+  width:100%;
+  height: 100%;
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "图片上传",
+  "usingComponents": {
+    "pop": "../common/chooseImage/index",
+    "popnum": "../common/chooseImage/index"    
+  }
+}

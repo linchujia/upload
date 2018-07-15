@@ -1,0 +1,8 @@
+<!--pages/files/company/index/index.wxml-->
+<view class="img-v clearfix">
+ <view class="img-chooseImage" wx:for="{{imgs}}" wx:for-item="item" wx:key="*this">
+  <image src="{{item}}" data-index="{{index}}" mode="aspectFill" bindtap="previewImg" class="list-img"></image>
+  <view class="delete-btn" data-index="{{index}}" catchtap="deleteImg"><image  src="../../../image/close.png"></image></view>
+ </view>
+ <view class="upload-img-btn" bindtap="chooseImg" hidden='{{ishide}}'><image class="add-img" src="../../../image/add-img.jpg"></image></view>
+</view>
